@@ -4,7 +4,7 @@
     <title>
       Ninja Wars - 404 - Page Not Found
     </title>
-    <link rel="stylesheet" href="{cachebust file="/css/style.css"}">
+    <link rel="stylesheet" href="{cachebust file="/css/nw.css"}">
     <link rel="stylesheet" type="text/css" href="{cachebust file="/css/font-awesome.min.css"}">
   </head>
   <body id="page-404">

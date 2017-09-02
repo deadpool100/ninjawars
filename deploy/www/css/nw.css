@@ -1485,6 +1485,8 @@ iframe {
 	height:99%;
 	border: 0;
 }
+.chat-area{
+}
 #mini-chat-container { /* div */
 	width:100%; overflow:auto; margin-top:0.5em; margin-bottom:1em;
 }

@@ -1,22 +1,3 @@
-<style>
-#chat-and-switch #chat-input{
-   width:55%;display:inline;margin-top:.5em;margin-bottom:.5em;
-}
-#chat-and-switch #chat-button-box{
-  width:40%;display:inline;margin-top:.5em;margin-bottom:.5em;
-}
-#chat-and-switch #chat-button{
-  display:inline;margin-right:.3em;margin-left:.3em;
-}
-.chat-author.template, .chat-message.template{
-  display:none;
-}
-.chat-switch .tiny-speech-bubble{
-   width:10px;height:9px;
-}
-
-</style>
-
           <div id='index-chat'>
               <div id="village-chat" class="boxes active">
                 <div class="box-title centered">

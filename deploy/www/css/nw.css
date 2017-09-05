@@ -1485,10 +1485,12 @@ iframe {
 	height:99%;
 	border: 0;
 }
-.chat-area{
-}
+/* The chat area of the homepage */
 #mini-chat-container { /* div */
-	width:100%; overflow:auto; margin-top:0.5em; margin-bottom:1em;
+	width:100%;
+	overflow:auto;
+	margin-top:0.5em;
+	margin-bottom:1em;
 }
 .chat-collapsed {
 	max-height: 300px;
@@ -1561,6 +1563,25 @@ time{
 #full-chat .chat-messages {
 	font-size:1em;
 }
+
+#chat-and-switch #chat-input{
+   width:55%;display:inline;margin-top:.5em;margin-bottom:.5em;
+}
+#chat-and-switch #chat-button-box{
+  width:40%;display:inline;margin-top:.5em;margin-bottom:.5em;
+}
+#chat-and-switch #chat-button{
+  display:inline;margin-right:.3em;margin-left:.3em;
+}
+.chat-author.template, .chat-message.template{
+  display:none;
+}
+.chat-switch .tiny-speech-bubble{
+   width:10px;height:9px;
+}
+
+
+/* END of chat related stuff */
 
 #post_msg {
 	margin-top:0;

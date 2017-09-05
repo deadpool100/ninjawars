@@ -53,7 +53,7 @@ class HomepageController extends AbstractController {
         $parts = [
             'main_src'             => '/intro',
             'body_classes'         => 'main-body',
-            'version'              => 'NW Version 1.7.5 2010.12.05',
+            'version'              => 'NW Version 1.8.1 2017.09.02',
             'ninja'                => $ninja,
             'player_info'          => $playerInfo,
             'clan'                 => $clan,
@@ -74,7 +74,7 @@ class HomepageController extends AbstractController {
         $parts = [
             'main_src'     => '/intro',
             'body_classes' => 'main-body splash',
-            'version'      => 'NW Version 1.8.0 2014.06.30',
+            'version'      => 'NW Version 1.8.1 2017.09.02',
         ];
 
         return new StreamedViewResponse('Live by the Shuriken', 'splash.tpl', $parts, [ 'is_index' => true ]);
